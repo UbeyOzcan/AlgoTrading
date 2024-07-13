@@ -1,2 +1,2 @@
 # AlgoTrading
- Repository to do algorith;ic automated trading
+ Repository to do algorith,ic automated trading
