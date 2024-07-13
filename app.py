@@ -1,3 +1,9 @@
-from src.Conn import get_version
+from src.Conn import TradingApp
+import time
 
-get_version()
+app = TradingApp()
+app.connect("127.0.0.1", 7496, 0)
+
+time.sleep(5)
+
+app.disconnect()
