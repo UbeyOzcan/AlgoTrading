@@ -1,4 +1,4 @@
-from src.Conn import TradingApp
+from src.ibapiconn.Conn import TradingApp
 import time
 
 app = TradingApp()
